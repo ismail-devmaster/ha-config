@@ -25,6 +25,20 @@
             "should_expose": false
           }
         }
+      },
+      "sensor.max_position": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.cap_cover_position_to_max_position": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
   }

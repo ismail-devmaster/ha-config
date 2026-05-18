@@ -1,18 +1,15 @@
 {
     "0xa4c138ad2b20ea12": {
-        "linkquality": 153
-    },
-    "0xa4c1380caa0578c0": {
-        "position": 29,
-        "state": "OPEN",
-        "moving": "STOP",
-        "linkquality": 10
+        "linkquality": 149,
+        "state": "ON",
+        "countdown": 0,
+        "brightness": 0
     },
     "0xa4c138997d10233c": {
         "voltage": 3000,
         "battery": 100,
-        "linkquality": 94,
-        "contact": false,
+        "linkquality": 83,
+        "contact": true,
         "tamper": true,
         "battery_low": false
     },
@@ -25,7 +22,20 @@
             "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-06p_v1.0.5.ota",
             "latest_release_notes": null
         },
-        "linkquality": 83,
-        "illumination": "bright"
+        "linkquality": 91,
+        "illumination": "dim"
+    },
+    "0xa4c1380caa0578c0": {
+        "indicator_mode": "off",
+        "backlight_mode": "ON",
+        "position": 0,
+        "state": "CLOSE",
+        "moving": "STOP",
+        "calibration": "OFF",
+        "motor_reversal": "OFF",
+        "calibration_time_to_open": 60,
+        "switch_type_curtain": "flip-switch",
+        "calibration_time_to_close": 58,
+        "linkquality": 47
     }
 }

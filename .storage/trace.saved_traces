@@ -2,5 +2,805 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.None": [
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "dc10d4f2fef934c61149ea974cd3cf53",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:49.868079+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2026-05-18T14:56:49.868133+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.cap_cover_position_to_max_position",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2026-05-18T14:56:48.009028+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Cap cover position to max_position"
+                    },
+                    "last_changed": "2026-05-18T14:53:41.401798+00:00",
+                    "last_reported": "2026-05-18T14:56:48.011477+00:00",
+                    "last_updated": "2026-05-18T14:56:48.011477+00:00",
+                    "context": {
+                      "id": "01KRXSDVW8DM9CEKC87HYE4YXZ",
+                      "parent_id": "01KRXSDVW1X62XGM68T56W597S",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "cover.yellow_switch",
+                    "from_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "opening",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 65,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:48.008450+00:00",
+                      "last_reported": "2026-05-18T14:56:48.050236+00:00",
+                      "last_updated": "2026-05-18T14:56:48.050236+00:00",
+                      "context": {
+                        "id": "01KRXSDVW8DM9CEKC87HYE4YXZ",
+                        "parent_id": "01KRXSDVW1X62XGM68T56W597S",
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "open",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 6,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:49.867805+00:00",
+                      "last_reported": "2026-05-18T14:56:49.867805+00:00",
+                      "last_updated": "2026-05-18T14:56:49.867805+00:00",
+                      "context": {
+                        "id": "01KRXSDXN1JV7MMT7WN47PTS0D",
+                        "parent_id": null,
+                        "user_id": "55a32a85eeed425ca4ed5e758674b417"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of cover.yellow_switch"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2026-05-18T14:56:49.868167+00:00",
+                "result": {
+                  "result": false,
+                  "entities": [
+                    "cover.yellow_switch",
+                    "sensor.max_position"
+                  ]
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Cap cover position to max_position",
+            "trigger": [
+              {
+                "platform": "state",
+                "entity_id": "cover.yellow_switch"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "template",
+                "value_template": "{{ state_attr('cover.yellow_switch', 'current_position') | int > states('sensor.max_position') | int }}"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "cover.yellow_switch"
+                },
+                "data": {
+                  "position": "{{ states('sensor.max_position') | int }}"
+                },
+                "action": "cover.set_cover_position"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01KRXSDXPCM3F0DXX68HN80TFW",
+            "parent_id": "01KRXSDXN1JV7MMT7WN47PTS0D",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "dc10d4f2fef934c61149ea974cd3cf53",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:49.868079+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "07258e3eb8744230761d5fc04042576d",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.301087+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2026-05-18T14:56:51.301140+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.cap_cover_position_to_max_position",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2026-05-18T14:56:48.009028+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Cap cover position to max_position"
+                    },
+                    "last_changed": "2026-05-18T14:53:41.401798+00:00",
+                    "last_reported": "2026-05-18T14:56:48.011477+00:00",
+                    "last_updated": "2026-05-18T14:56:48.011477+00:00",
+                    "context": {
+                      "id": "01KRXSDVW8DM9CEKC87HYE4YXZ",
+                      "parent_id": "01KRXSDVW1X62XGM68T56W597S",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "cover.yellow_switch",
+                    "from_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "open",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 6,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:49.867805+00:00",
+                      "last_reported": "2026-05-18T14:56:49.867805+00:00",
+                      "last_updated": "2026-05-18T14:56:49.867805+00:00",
+                      "context": {
+                        "id": "01KRXSDXN1JV7MMT7WN47PTS0D",
+                        "parent_id": null,
+                        "user_id": "55a32a85eeed425ca4ed5e758674b417"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "open",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 100,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:49.867805+00:00",
+                      "last_reported": "2026-05-18T14:56:51.300720+00:00",
+                      "last_updated": "2026-05-18T14:56:51.300720+00:00",
+                      "context": {
+                        "id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                        "parent_id": null,
+                        "user_id": "55a32a85eeed425ca4ed5e758674b417"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of cover.yellow_switch"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2026-05-18T14:56:51.301175+00:00",
+                "result": {
+                  "result": true,
+                  "entities": [
+                    "cover.yellow_switch",
+                    "sensor.max_position"
+                  ]
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2026-05-18T14:56:51.301686+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                    "parent_id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "cover",
+                    "service": "set_cover_position",
+                    "service_data": {
+                      "position": 65,
+                      "entity_id": [
+                        "cover.yellow_switch"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "cover.yellow_switch"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Cap cover position to max_position",
+            "trigger": [
+              {
+                "platform": "state",
+                "entity_id": "cover.yellow_switch"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "template",
+                "value_template": "{{ state_attr('cover.yellow_switch', 'current_position') | int > states('sensor.max_position') | int }}"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "cover.yellow_switch"
+                },
+                "data": {
+                  "position": "{{ states('sensor.max_position') | int }}"
+                },
+                "action": "cover.set_cover_position"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+            "parent_id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "07258e3eb8744230761d5fc04042576d",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.301087+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "0f054f42887582b5236122c14887c2ca",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.307685+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2026-05-18T14:56:51.307735+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.cap_cover_position_to_max_position",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2026-05-18T14:56:51.301428+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Cap cover position to max_position"
+                    },
+                    "last_changed": "2026-05-18T14:53:41.401798+00:00",
+                    "last_reported": "2026-05-18T14:56:51.304545+00:00",
+                    "last_updated": "2026-05-18T14:56:51.304545+00:00",
+                    "context": {
+                      "id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                      "parent_id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "cover.yellow_switch",
+                    "from_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "open",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 100,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:49.867805+00:00",
+                      "last_reported": "2026-05-18T14:56:51.300720+00:00",
+                      "last_updated": "2026-05-18T14:56:51.300720+00:00",
+                      "context": {
+                        "id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                        "parent_id": null,
+                        "user_id": "55a32a85eeed425ca4ed5e758674b417"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "opening",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 100,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:51.306053+00:00",
+                      "last_reported": "2026-05-18T14:56:51.306053+00:00",
+                      "last_updated": "2026-05-18T14:56:51.306053+00:00",
+                      "context": {
+                        "id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                        "parent_id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of cover.yellow_switch"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2026-05-18T14:56:51.307768+00:00",
+                "result": {
+                  "result": true,
+                  "entities": [
+                    "cover.yellow_switch",
+                    "sensor.max_position"
+                  ]
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2026-05-18T14:56:51.308278+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+                    "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "cover",
+                    "service": "set_cover_position",
+                    "service_data": {
+                      "position": 65,
+                      "entity_id": [
+                        "cover.yellow_switch"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "cover.yellow_switch"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Cap cover position to max_position",
+            "trigger": [
+              {
+                "platform": "state",
+                "entity_id": "cover.yellow_switch"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "template",
+                "value_template": "{{ state_attr('cover.yellow_switch', 'current_position') | int > states('sensor.max_position') | int }}"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "cover.yellow_switch"
+                },
+                "data": {
+                  "position": "{{ states('sensor.max_position') | int }}"
+                },
+                "action": "cover.set_cover_position"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+            "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "0f054f42887582b5236122c14887c2ca",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.307685+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "ff1f1133bec143a13189f6beae105591",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.351893+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2026-05-18T14:56:51.351941+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.cap_cover_position_to_max_position",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2026-05-18T14:56:51.308018+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Cap cover position to max_position"
+                    },
+                    "last_changed": "2026-05-18T14:53:41.401798+00:00",
+                    "last_reported": "2026-05-18T14:56:51.310264+00:00",
+                    "last_updated": "2026-05-18T14:56:51.310264+00:00",
+                    "context": {
+                      "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+                      "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "cover.yellow_switch",
+                    "from_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "opening",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 100,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:51.306053+00:00",
+                      "last_reported": "2026-05-18T14:56:51.306053+00:00",
+                      "last_updated": "2026-05-18T14:56:51.306053+00:00",
+                      "context": {
+                        "id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                        "parent_id": "01KRXSDZ1Y8YEBQ6WGFDH8CX21",
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "opening",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 65,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:51.306053+00:00",
+                      "last_reported": "2026-05-18T14:56:51.351518+00:00",
+                      "last_updated": "2026-05-18T14:56:51.351518+00:00",
+                      "context": {
+                        "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+                        "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of cover.yellow_switch"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2026-05-18T14:56:51.351975+00:00",
+                "result": {
+                  "result": false,
+                  "entities": [
+                    "cover.yellow_switch",
+                    "sensor.max_position"
+                  ]
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Cap cover position to max_position",
+            "trigger": [
+              {
+                "platform": "state",
+                "entity_id": "cover.yellow_switch"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "template",
+                "value_template": "{{ state_attr('cover.yellow_switch', 'current_position') | int > states('sensor.max_position') | int }}"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "cover.yellow_switch"
+                },
+                "data": {
+                  "position": "{{ states('sensor.max_position') | int }}"
+                },
+                "action": "cover.set_cover_position"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01KRXSDZ4QDA8HN7PHGJMSETAS",
+            "parent_id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "ff1f1133bec143a13189f6beae105591",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:51.351893+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "184ed241e0cbe1e019cffa6b47b3110b",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:52.956514+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2026-05-18T14:56:52.956566+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.cap_cover_position_to_max_position",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2026-05-18T14:56:51.308018+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Cap cover position to max_position"
+                    },
+                    "last_changed": "2026-05-18T14:53:41.401798+00:00",
+                    "last_reported": "2026-05-18T14:56:51.310264+00:00",
+                    "last_updated": "2026-05-18T14:56:51.310264+00:00",
+                    "context": {
+                      "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+                      "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "cover.yellow_switch",
+                    "from_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "opening",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 65,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:51.306053+00:00",
+                      "last_reported": "2026-05-18T14:56:51.351518+00:00",
+                      "last_updated": "2026-05-18T14:56:51.351518+00:00",
+                      "context": {
+                        "id": "01KRXSDZ3BFF7WV8YDJKDAN5GB",
+                        "parent_id": "01KRXSDZ35Z1CX4YXEM2704KQV",
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "cover.yellow_switch",
+                      "state": "open",
+                      "attributes": {
+                        "is_closed": false,
+                        "current_position": 8,
+                        "friendly_name": "yellow switch",
+                        "supported_features": 15
+                      },
+                      "last_changed": "2026-05-18T14:56:52.955470+00:00",
+                      "last_reported": "2026-05-18T14:56:52.955470+00:00",
+                      "last_updated": "2026-05-18T14:56:52.955470+00:00",
+                      "context": {
+                        "id": "01KRXSE0NJ5XJ45BP8M0CNTDZ8",
+                        "parent_id": null,
+                        "user_id": "55a32a85eeed425ca4ed5e758674b417"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of cover.yellow_switch"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2026-05-18T14:56:52.956598+00:00",
+                "result": {
+                  "result": false,
+                  "entities": [
+                    "cover.yellow_switch",
+                    "sensor.max_position"
+                  ]
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Cap cover position to max_position",
+            "trigger": [
+              {
+                "platform": "state",
+                "entity_id": "cover.yellow_switch"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "template",
+                "value_template": "{{ state_attr('cover.yellow_switch', 'current_position') | int > states('sensor.max_position') | int }}"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "cover.yellow_switch"
+                },
+                "data": {
+                  "position": "{{ states('sensor.max_position') | int }}"
+                },
+                "action": "cover.set_cover_position"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01KRXSE0PWMM23506HDK761WSS",
+            "parent_id": "01KRXSE0NJ5XJ45BP8M0CNTDZ8",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "184ed241e0cbe1e019cffa6b47b3110b",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2026-05-18T14:56:52.956514+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of cover.yellow_switch"
+        }
+      }
+    ]
+  }
 }

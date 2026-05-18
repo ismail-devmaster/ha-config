@@ -4,187 +4,403 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2026.05.0","in_progress":false,"latest_version":"2026.05.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2026.05.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"/api/brands/integration/hassio/icon.png?placeholder=no","friendly_name":"Home Assistant Supervisor Update","supported_features":5},"last_changed":"2026-05-18T11:05:31.321401+00:00","last_reported":"2026-05-18T11:05:31.321401+00:00","last_updated":"2026-05-18T11:05:31.321401+00:00","context":{"id":"01KRXC6CDSNCNHTHTQ2M1PN40R","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2026-05-18T14:58:32.303797+00:00","last_reported":"2026-05-18T14:58:32.303797+00:00","last_updated":"2026-05-18T14:58:32.303797+00:00","context":{"id":"01KRXSH1QF279K5D27ZGJW7DF0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2026.5.2","in_progress":false,"latest_version":"2026.5.2","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Core Update","supported_features":15},"last_changed":"2026-05-18T11:05:31.321781+00:00","last_reported":"2026-05-18T11:05:31.321781+00:00","last_updated":"2026-05-18T11:05:31.321781+00:00","context":{"id":"01KRXC6CDSMSH1ZFGQNWTSFVXZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2026.05.0","in_progress":false,"latest_version":"2026.05.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2026.05.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"/api/brands/integration/hassio/icon.png?placeholder=no","friendly_name":"Home Assistant Supervisor Update","supported_features":5},"last_changed":"2026-05-18T14:58:32.359541+00:00","last_reported":"2026-05-18T14:58:32.359541+00:00","last_updated":"2026-05-18T14:58:32.359541+00:00","context":{"id":"01KRXSH1S7S5A91M83CS3SSX10","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"17.3","in_progress":false,"latest_version":"17.3","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/17.3","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Operating System Update","supported_features":11},"last_changed":"2026-05-18T11:05:31.322036+00:00","last_reported":"2026-05-18T11:05:31.322036+00:00","last_updated":"2026-05-18T11:05:31.322036+00:00","context":{"id":"01KRXC6CDTSXZYZ42613VZ0TNK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2026.5.2","in_progress":false,"latest_version":"2026.5.2","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Core Update","supported_features":15},"last_changed":"2026-05-18T14:58:32.359847+00:00","last_reported":"2026-05-18T14:58:32.359847+00:00","last_updated":"2026-05-18T14:58:32.359847+00:00","context":{"id":"01KRXSH1S7PQSXY8W70TZNJH7H","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.terminal_ssh_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"10.2.0","in_progress":false,"latest_version":"10.2.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Terminal & SSH","update_percentage":null,"entity_picture":"/api/hassio/addons/core_ssh/icon","friendly_name":"Terminal & SSH Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322276+00:00","last_reported":"2026-05-18T11:05:31.322276+00:00","last_updated":"2026-05-18T11:05:31.322276+00:00","context":{"id":"01KRXC6CDTCB5CR2J86N1PPCS3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"17.3","in_progress":false,"latest_version":"17.3","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/17.3","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Operating System Update","supported_features":11},"last_changed":"2026-05-18T14:58:32.360085+00:00","last_reported":"2026-05-18T14:58:32.360085+00:00","last_updated":"2026-05-18T14:58:32.360085+00:00","context":{"id":"01KRXSH1S8BVGA5855FJM3MAKN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"6.0.0","in_progress":false,"latest_version":"6.0.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"File editor","update_percentage":null,"entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322458+00:00","last_reported":"2026-05-18T11:05:31.322458+00:00","last_updated":"2026-05-18T11:05:31.322458+00:00","context":{"id":"01KRXC6CDTBX0RD76RJR3PVY26","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.terminal_ssh_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"10.2.0","in_progress":false,"latest_version":"10.2.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Terminal & SSH","update_percentage":null,"entity_picture":"/api/hassio/addons/core_ssh/icon","friendly_name":"Terminal & SSH Update","supported_features":29},"last_changed":"2026-05-18T14:58:32.360322+00:00","last_reported":"2026-05-18T14:58:32.360322+00:00","last_updated":"2026-05-18T14:58:32.360322+00:00","context":{"id":"01KRXSH1S8K2TRME9QD8KTBAS2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"7.1.0","in_progress":false,"latest_version":"7.1.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Mosquitto broker","update_percentage":null,"entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322615+00:00","last_reported":"2026-05-18T11:05:31.322615+00:00","last_updated":"2026-05-18T11:05:31.322615+00:00","context":{"id":"01KRXC6CDTNVR12JT04Z9BCZ9V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"6.0.0","in_progress":false,"latest_version":"6.0.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"File editor","update_percentage":null,"entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":29},"last_changed":"2026-05-18T14:58:32.360502+00:00","last_reported":"2026-05-18T14:58:32.360502+00:00","last_updated":"2026-05-18T14:58:32.360502+00:00","context":{"id":"01KRXSH1S8A3SAHVXHE32ERY2A","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.zigbee2mqtt_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2.10.1-1","in_progress":false,"latest_version":"2.10.1-1","release_summary":null,"release_url":null,"skipped_version":null,"title":"Zigbee2MQTT","update_percentage":null,"entity_picture":"/api/hassio/addons/45df7312_zigbee2mqtt/icon","friendly_name":"Zigbee2MQTT Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322765+00:00","last_reported":"2026-05-18T11:05:31.322765+00:00","last_updated":"2026-05-18T11:05:31.322765+00:00","context":{"id":"01KRXC6CDTFQ5AZSSA5CCH7SXE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"7.1.0","in_progress":false,"latest_version":"7.1.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Mosquitto broker","update_percentage":null,"entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":29},"last_changed":"2026-05-18T14:58:32.360655+00:00","last_reported":"2026-05-18T14:58:32.360655+00:00","last_updated":"2026-05-18T14:58:32.360655+00:00","context":{"id":"01KRXSH1S8C352Z9WQ8JXTP160","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2026-05-18T11:05:31.847494+00:00","last_reported":"2026-05-18T11:05:31.847494+00:00","last_updated":"2026-05-18T11:05:31.847494+00:00","context":{"id":"01KRXC6CY7VB714MEVKRJ78RAH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.zigbee2mqtt_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2.10.1-1","in_progress":false,"latest_version":"2.10.1-1","release_summary":null,"release_url":null,"skipped_version":null,"title":"Zigbee2MQTT","update_percentage":null,"entity_picture":"/api/hassio/addons/45df7312_zigbee2mqtt/icon","friendly_name":"Zigbee2MQTT Update","supported_features":29},"last_changed":"2026-05-18T14:58:32.360799+00:00","last_reported":"2026-05-18T14:58:32.360799+00:00","last_updated":"2026-05-18T14:58:32.360799+00:00","context":{"id":"01KRXSH1S8C0K15FE9XC8CD1ME","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2026-05-18T11:05:32.018099+00:00","last_reported":"2026-05-18T11:05:32.018099+00:00","last_updated":"2026-05-18T11:05:32.018099+00:00","context":{"id":"01KRXC6D3JB8TB5KDWVFQGDCWZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2026-05-18T14:58:32.464587+00:00","last_reported":"2026-05-18T14:58:32.464587+00:00","last_updated":"2026-05-18T14:58:32.464587+00:00","context":{"id":"01KRXSH1WGWFMTTBQP9QX8HQZF","parent_id":null,"user_id":null}},
       "extra_data": {
         "last_event_type": null,
         "last_event_attributes": null
       },
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"person.pi","state":"unknown","attributes":{"editable":true,"id":"pi","device_trackers":[],"in_zones":[],"user_id":"55a32a85eeed425ca4ed5e758674b417","friendly_name":"pi"},"last_changed":"2026-05-18T11:05:32.272245+00:00","last_reported":"2026-05-18T11:05:35.153870+00:00","last_updated":"2026-05-18T11:05:35.153870+00:00","context":{"id":"01KRXC6G5HYPDRVBGSAFTHA9NM","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.pi","state":"unknown","attributes":{"editable":true,"id":"pi","device_trackers":["device_tracker.px30_evb"],"in_zones":[],"source":"person.pi","user_id":"55a32a85eeed425ca4ed5e758674b417","friendly_name":"pi"},"last_changed":"2026-05-18T14:58:32.648427+00:00","last_reported":"2026-05-18T14:58:32.648427+00:00","last_updated":"2026-05-18T14:58:32.648427+00:00","context":{"id":"01KRXSH228FXVZEBM4NZSJZZVV","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"input_number.ac_current_temp","state":"19.0","attributes":{"initial":null,"editable":true,"min":16.0,"max":32.0,"step":1.0,"mode":"slider","unit_of_measurement":"°C","icon":"mdi:pistol","friendly_name":"AC Current Temp"},"last_changed":"2026-05-18T11:05:32.272589+00:00","last_reported":"2026-05-18T11:05:32.272589+00:00","last_updated":"2026-05-18T11:05:32.272589+00:00","context":{"id":"01KRXC6DBGHP1WKE7KR3MYMV5B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.ac_current_temp","state":"19.0","attributes":{"initial":null,"editable":true,"min":16.0,"max":32.0,"step":1.0,"mode":"slider","unit_of_measurement":"°C","icon":"mdi:pistol","friendly_name":"AC Current Temp"},"last_changed":"2026-05-18T14:58:32.648971+00:00","last_reported":"2026-05-18T14:58:32.648971+00:00","last_updated":"2026-05-18T14:58:32.648971+00:00","context":{"id":"01KRXSH228RMYMJ657RJVRVXKH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.blueprint_studio_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v2.4.8","in_progress":false,"latest_version":"v2.4.8","release_summary":null,"release_url":"https://github.com/soulripper13/blueprint-studio/releases/v2.4.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/blueprint_studio/icon.png","friendly_name":"Blueprint Studio Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803116+00:00","last_reported":"2026-05-18T11:05:33.803116+00:00","last_updated":"2026-05-18T11:05:33.803116+00:00","context":{"id":"01KRXC6EVB90BXVRWRED41KMCT","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.px30_evb","state":"unknown","attributes":{"in_zones":[],"source_type":"gps","friendly_name":"px30_evb"},"last_changed":"2026-05-18T14:58:33.596866+00:00","last_reported":"2026-05-18T14:58:33.596866+00:00","last_updated":"2026-05-18T14:58:33.596866+00:00","context":{"id":"01KRXSH2ZWTSKE7PSAXNCMRGDP","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v5.1.1","in_progress":false,"latest_version":"v5.1.1","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v5.1.1","skipped_version":null,"title":null,"update_percentage":null,"friendly_name":"Mushroom Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803414+00:00","last_reported":"2026-05-18T11:05:33.803414+00:00","last_updated":"2026-05-18T11:05:33.803414+00:00","context":{"id":"01KRXC6EVBTVK3N38B61AKP026","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"notify.px30_evb","state":"unknown","attributes":{"friendly_name":"px30_evb","supported_features":1},"last_changed":"2026-05-18T14:58:33.597318+00:00","last_reported":"2026-05-18T14:58:33.597318+00:00","last_updated":"2026-05-18T14:58:33.597318+00:00","context":{"id":"01KRXSH2ZX1ECZYSARXKE3EAT1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803630+00:00","last_reported":"2026-05-18T11:05:33.803630+00:00","last_updated":"2026-05-18T11:05:33.803630+00:00","context":{"id":"01KRXC6EVB4D1F5AJ7E2P81T9V","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"sensor.px30_evb_battery_level","state":"100","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging","friendly_name":"px30_evb Battery level"},"last_changed":"2026-05-18T14:58:33.597908+00:00","last_reported":"2026-05-18T14:58:33.597908+00:00","last_updated":"2026-05-18T14:58:33.597908+00:00","context":{"id":"01KRXSH2ZXH089Y2A2T145X4TG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2026-05-18T11:05:33.825943+00:00","last_reported":"2026-05-18T11:05:33.825943+00:00","last_updated":"2026-05-18T11:05:33.825943+00:00","context":{"id":"01KRXC6EW15TKJCR0MJDM7YDH3","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"sensor.px30_evb_battery_state","state":"charging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-plus","friendly_name":"px30_evb Battery state"},"last_changed":"2026-05-18T14:58:33.598131+00:00","last_reported":"2026-05-18T14:58:33.598131+00:00","last_updated":"2026-05-18T14:58:33.598131+00:00","context":{"id":"01KRXSH2ZY8BHQRKER2WT5GRZZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.quite","state":"unknown","attributes":{"friendly_name":"Quite"},"last_changed":"2026-05-18T11:05:35.137551+00:00","last_reported":"2026-05-18T11:05:35.137551+00:00","last_updated":"2026-05-18T11:05:35.137551+00:00","context":{"id":"01KRXC6G51KWNMQB8KEKKE6MK8","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"sensor.px30_evb_charger_type","state":"ac","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:power-plug","friendly_name":"px30_evb Charger type"},"last_changed":"2026-05-18T14:58:33.598309+00:00","last_reported":"2026-05-18T14:58:33.598309+00:00","last_updated":"2026-05-18T14:58:33.598309+00:00","context":{"id":"01KRXSH2ZYVG1JB8CV04R42XE0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "ac",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.swing","state":"unknown","attributes":{"friendly_name":"Swing"},"last_changed":"2026-05-18T11:05:35.138118+00:00","last_reported":"2026-05-18T11:05:35.138118+00:00","last_updated":"2026-05-18T11:05:35.138118+00:00","context":{"id":"01KRXC6G52WV9903RPWW9MD1SV","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2026-05-18T14:58:33.611660+00:00","last_reported":"2026-05-18T14:58:33.611660+00:00","last_updated":"2026-05-18T14:58:33.611660+00:00","context":{"id":"01KRXSH30BQDF9KAPJX2HJW7C2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.ac_on","state":"2026-05-17T17:44:07.149682+00:00","attributes":{"friendly_name":"Ac On"},"last_changed":"2026-05-18T11:05:35.138584+00:00","last_reported":"2026-05-18T11:05:35.138584+00:00","last_updated":"2026-05-18T11:05:35.138584+00:00","context":{"id":"01KRXC6G52K8PSA10B1VB4BDM2","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS Update","supported_features":23},"last_changed":"2026-05-18T14:58:33.670583+00:00","last_reported":"2026-05-18T14:58:33.670583+00:00","last_updated":"2026-05-18T14:58:33.670583+00:00","context":{"id":"01KRXSH3267A8AZEDJ15564TXW","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.ac_off","state":"2026-05-17T18:06:42.285676+00:00","attributes":{"friendly_name":"Ac Off"},"last_changed":"2026-05-18T11:05:35.138988+00:00","last_reported":"2026-05-18T11:05:35.138988+00:00","last_updated":"2026-05-18T11:05:35.138988+00:00","context":{"id":"01KRXC6G52J2BCB8V4WCV1TA7R","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v5.1.1","in_progress":false,"latest_version":"v5.1.1","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v5.1.1","skipped_version":null,"title":null,"update_percentage":null,"friendly_name":"Mushroom Update","supported_features":23},"last_changed":"2026-05-18T14:58:33.670830+00:00","last_reported":"2026-05-18T14:58:33.670830+00:00","last_updated":"2026-05-18T14:58:33.670830+00:00","context":{"id":"01KRXSH3266SBZPBJKS48QBGMQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.32","state":"unknown","attributes":{"friendly_name":"32"},"last_changed":"2026-05-18T11:05:35.139397+00:00","last_reported":"2026-05-18T11:05:35.139397+00:00","last_updated":"2026-05-18T11:05:35.139397+00:00","context":{"id":"01KRXC6G53HFZYHYESZ9P9S2QN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.blueprint_studio_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v2.4.8","in_progress":false,"latest_version":"v2.4.8","release_summary":null,"release_url":"https://github.com/soulripper13/blueprint-studio/releases/v2.4.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/blueprint_studio/icon.png","friendly_name":"Blueprint Studio Update","supported_features":23},"last_changed":"2026-05-18T14:58:33.670989+00:00","last_reported":"2026-05-18T14:58:33.670989+00:00","last_updated":"2026-05-18T14:58:33.670989+00:00","context":{"id":"01KRXSH326YTSHXSAQJA5GBDS3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.31","state":"unknown","attributes":{"friendly_name":"31"},"last_changed":"2026-05-18T11:05:35.139848+00:00","last_reported":"2026-05-18T11:05:35.139848+00:00","last_updated":"2026-05-18T11:05:35.139848+00:00","context":{"id":"01KRXC6G530B9YVV435ZJD1GRB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.zigbee2mqtt_bridge_connection_state","state":"unknown","attributes":{"device_class":"connectivity","friendly_name":"Zigbee2MQTT Bridge Connection state"},"last_changed":"2026-05-18T14:58:34.387126+00:00","last_reported":"2026-05-18T14:58:34.387126+00:00","last_updated":"2026-05-18T14:58:34.387126+00:00","context":{"id":"01KRXSH3RK4QSW98VJ9N775581","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.30","state":"unknown","attributes":{"friendly_name":"30"},"last_changed":"2026-05-18T11:05:35.140242+00:00","last_reported":"2026-05-18T11:05:35.140242+00:00","last_updated":"2026-05-18T11:05:35.140242+00:00","context":{"id":"01KRXC6G54AZAN159TATV023Z3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.door_contact","state":"unavailable","attributes":{"device_class":"door","friendly_name":"door Door"},"last_changed":"2026-05-18T14:58:34.391612+00:00","last_reported":"2026-05-18T14:58:34.391612+00:00","last_updated":"2026-05-18T14:58:34.391612+00:00","context":{"id":"01KRXSH3RQQV8W6QEMMF6RSMFA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.29","state":"unknown","attributes":{"friendly_name":"29"},"last_changed":"2026-05-18T11:05:35.140620+00:00","last_reported":"2026-05-18T11:05:35.140620+00:00","last_updated":"2026-05-18T11:05:35.140620+00:00","context":{"id":"01KRXC6G54Q1YWT7NV4KFMNFCE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.door_tamper","state":"unavailable","attributes":{"device_class":"tamper","friendly_name":"door Tamper"},"last_changed":"2026-05-18T14:58:34.393835+00:00","last_reported":"2026-05-18T14:58:34.393835+00:00","last_updated":"2026-05-18T14:58:34.393835+00:00","context":{"id":"01KRXSH3RSE14Z4GCGJPNR0FCX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.28","state":"unknown","attributes":{"friendly_name":"28"},"last_changed":"2026-05-18T11:05:35.140997+00:00","last_reported":"2026-05-18T11:05:35.140997+00:00","last_updated":"2026-05-18T11:05:35.140997+00:00","context":{"id":"01KRXC6G54912ZAEJ2JD1ZMBXZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.door_battery_low","state":"unavailable","attributes":{"device_class":"battery","friendly_name":"door Battery"},"last_changed":"2026-05-18T14:58:34.395761+00:00","last_reported":"2026-05-18T14:58:34.395761+00:00","last_updated":"2026-05-18T14:58:34.395761+00:00","context":{"id":"01KRXSH3RVJ1N7G8SS7DM9S9DQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.27","state":"unknown","attributes":{"friendly_name":"27"},"last_changed":"2026-05-18T11:05:35.141360+00:00","last_reported":"2026-05-18T11:05:35.141360+00:00","last_updated":"2026-05-18T11:05:35.141360+00:00","context":{"id":"01KRXC6G55BRRSP4DEN4Q43FCN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.sensor_occupancy_occupancy","state":"unavailable","attributes":{"device_class":"occupancy","friendly_name":"sensor occupancy Occupancy"},"last_changed":"2026-05-18T14:58:34.397613+00:00","last_reported":"2026-05-18T14:58:34.397613+00:00","last_updated":"2026-05-18T14:58:34.397613+00:00","context":{"id":"01KRXSH3RX9CPXANF07M68G08X","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.26","state":"unknown","attributes":{"friendly_name":"26"},"last_changed":"2026-05-18T11:05:35.141733+00:00","last_reported":"2026-05-18T11:05:35.141733+00:00","last_updated":"2026-05-18T11:05:35.141733+00:00","context":{"id":"01KRXC6G5569T9HSKBW8YAJVF1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.zigbee2mqtt_bridge_restart","state":"unavailable","attributes":{"device_class":"restart","friendly_name":"Zigbee2MQTT Bridge Restart"},"last_changed":"2026-05-18T14:58:34.433774+00:00","last_reported":"2026-05-18T14:58:34.433774+00:00","last_updated":"2026-05-18T14:58:34.433774+00:00","context":{"id":"01KRXSH3T1AP1JQF6VAJ4NPC38","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.25","state":"unknown","attributes":{"friendly_name":"25"},"last_changed":"2026-05-18T11:05:35.142101+00:00","last_reported":"2026-05-18T11:05:35.142101+00:00","last_updated":"2026-05-18T11:05:35.142101+00:00","context":{"id":"01KRXC6G567QBWGBH1KMGHC71G","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"light.orange_switch","state":"unavailable","attributes":{"supported_color_modes":["brightness"],"friendly_name":"orange switch","supported_features":40},"last_changed":"2026-05-18T14:58:34.488702+00:00","last_reported":"2026-05-18T14:58:34.488702+00:00","last_updated":"2026-05-18T14:58:34.488702+00:00","context":{"id":"01KRXSH3VRKE00AY6GT5NN8QMZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.24","state":"unknown","attributes":{"friendly_name":"24"},"last_changed":"2026-05-18T11:05:35.142468+00:00","last_reported":"2026-05-18T11:05:35.142468+00:00","last_updated":"2026-05-18T11:05:35.142468+00:00","context":{"id":"01KRXC6G56VH61MWVVX27RGR77","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"number.orange_switch_countdown","state":"unavailable","attributes":{"min":0.0,"max":43200.0,"step":1.0,"mode":"auto","unit_of_measurement":"s","friendly_name":"orange switch Countdown"},"last_changed":"2026-05-18T14:58:34.532996+00:00","last_reported":"2026-05-18T14:58:34.532996+00:00","last_updated":"2026-05-18T14:58:34.532996+00:00","context":{"id":"01KRXSH3X4BFGPACSHM9A1KBXV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 43200.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": "s",
+        "native_value": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.23","state":"unknown","attributes":{"friendly_name":"23"},"last_changed":"2026-05-18T11:05:35.142824+00:00","last_reported":"2026-05-18T11:05:35.142824+00:00","last_updated":"2026-05-18T11:05:35.142824+00:00","context":{"id":"01KRXC6G56YTN23ZDZ0ZB2R96D","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"number.sensor_occupancy_occupancy_timeout","state":"unavailable","attributes":{"min":15.0,"max":65535.0,"step":1.0,"mode":"auto","icon":"mdi:timer","friendly_name":"sensor occupancy Occupancy timeout"},"last_changed":"2026-05-18T14:58:34.536160+00:00","last_reported":"2026-05-18T14:58:34.536160+00:00","last_updated":"2026-05-18T14:58:34.536160+00:00","context":{"id":"01KRXSH3X8X62ZX0X9VE5TTV9M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 65535.0,
+        "native_min_value": 15.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.22","state":"unknown","attributes":{"friendly_name":"22"},"last_changed":"2026-05-18T11:05:35.143168+00:00","last_reported":"2026-05-18T11:05:35.143168+00:00","last_updated":"2026-05-18T11:05:35.143168+00:00","context":{"id":"01KRXC6G57MYBQVMVQHAXSM4T5","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"number.yellow_switch_calibration_time_to_open","state":"unavailable","attributes":{"min":0.0,"max":100.0,"step":1.0,"mode":"auto","unit_of_measurement":"s","friendly_name":"yellow switch Calibration time to open"},"last_changed":"2026-05-18T14:58:34.539194+00:00","last_reported":"2026-05-18T14:58:34.539194+00:00","last_updated":"2026-05-18T14:58:34.539194+00:00","context":{"id":"01KRXSH3XBTSKVJE9NZ1YZSTQR","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 100.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": "s",
+        "native_value": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.20","state":"unknown","attributes":{"friendly_name":"20"},"last_changed":"2026-05-18T11:05:35.143535+00:00","last_reported":"2026-05-18T11:05:35.143535+00:00","last_updated":"2026-05-18T11:05:35.143535+00:00","context":{"id":"01KRXC6G57Q4BKDHP2DR79ETSS","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "state": {"entity_id":"number.yellow_switch_calibration_time_to_close","state":"unavailable","attributes":{"min":0.0,"max":100.0,"step":1.0,"mode":"auto","unit_of_measurement":"s","friendly_name":"yellow switch Calibration time to close"},"last_changed":"2026-05-18T14:58:34.541395+00:00","last_reported":"2026-05-18T14:58:34.541395+00:00","last_updated":"2026-05-18T14:58:34.541395+00:00","context":{"id":"01KRXSH3XDHNNP08ZF3STKCYCX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 100.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": "s",
+        "native_value": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.21","state":"unknown","attributes":{"friendly_name":"21"},"last_changed":"2026-05-18T11:05:35.143891+00:00","last_reported":"2026-05-18T11:05:35.143891+00:00","last_updated":"2026-05-18T11:05:35.143891+00:00","context":{"id":"01KRXC6G57W3ZJ5RRJ1PB652VK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.zigbee2mqtt_bridge_log_level","state":"unavailable","attributes":{"options":["error","warning","info","debug"],"friendly_name":"Zigbee2MQTT Bridge Log level"},"last_changed":"2026-05-18T14:58:34.546527+00:00","last_reported":"2026-05-18T14:58:34.546527+00:00","last_updated":"2026-05-18T14:58:34.546527+00:00","context":{"id":"01KRXSH3XJNC8ZQT793WJK7039","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.19","state":"2026-05-17T18:06:39.491769+00:00","attributes":{"friendly_name":"19"},"last_changed":"2026-05-18T11:05:35.144259+00:00","last_reported":"2026-05-18T11:05:35.144259+00:00","last_updated":"2026-05-18T11:05:35.144259+00:00","context":{"id":"01KRXC6G58J4BR8794F59NWN40","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.orange_switch_switch_type","state":"unavailable","attributes":{"options":["toggle","state","momentary"],"icon":"mdi:tune","friendly_name":"orange switch Switch type"},"last_changed":"2026-05-18T14:58:34.548676+00:00","last_reported":"2026-05-18T14:58:34.548676+00:00","last_updated":"2026-05-18T14:58:34.548676+00:00","context":{"id":"01KRXSH3XMB9STYJHQ5NH3YEVS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.18","state":"2026-05-17T18:04:48.609630+00:00","attributes":{"friendly_name":"18"},"last_changed":"2026-05-18T11:05:35.144609+00:00","last_reported":"2026-05-18T11:05:35.144609+00:00","last_updated":"2026-05-18T11:05:35.144609+00:00","context":{"id":"01KRXC6G58J3ZSPF66YE10VS3Z","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.orange_switch_power_on_behavior","state":"unavailable","attributes":{"options":["off","previous","on"],"icon":"mdi:power-settings","friendly_name":"orange switch Power-on behavior"},"last_changed":"2026-05-18T14:58:34.551234+00:00","last_reported":"2026-05-18T14:58:34.551234+00:00","last_updated":"2026-05-18T14:58:34.551234+00:00","context":{"id":"01KRXSH3XQ1SMGRYFQFBFKHTEX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.17","state":"2026-05-17T18:04:47.526763+00:00","attributes":{"friendly_name":"17"},"last_changed":"2026-05-18T11:05:35.144947+00:00","last_reported":"2026-05-18T11:05:35.144947+00:00","last_updated":"2026-05-18T11:05:35.144947+00:00","context":{"id":"01KRXC6G58309T2SRNZQ26EK81","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.sensor_occupancy_occupancy_sensitivity","state":"unavailable","attributes":{"options":["low","medium","high"],"friendly_name":"sensor occupancy Occupancy sensitivity"},"last_changed":"2026-05-18T14:58:34.553483+00:00","last_reported":"2026-05-18T14:58:34.553483+00:00","last_updated":"2026-05-18T14:58:34.553483+00:00","context":{"id":"01KRXSH3XS9MHSVQ7KK649VVXB","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
     },
     {
-      "state": {"entity_id":"scene.16","state":"2026-05-17T18:04:44.894791+00:00","attributes":{"friendly_name":"16"},"last_changed":"2026-05-18T11:05:35.145292+00:00","last_reported":"2026-05-18T11:05:35.145292+00:00","last_updated":"2026-05-18T11:05:35.145292+00:00","context":{"id":"01KRXC6G59B7ATQE4R9NQQP0E7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.yellow_switch_switch_type_curtain","state":"unavailable","attributes":{"options":["flip-switch","sync-switch","button-switch","button2-switch"],"friendly_name":"yellow switch Switch type curtain"},"last_changed":"2026-05-18T14:58:34.556350+00:00","last_reported":"2026-05-18T14:58:34.556350+00:00","last_updated":"2026-05-18T14:58:34.556350+00:00","context":{"id":"01KRXSH3XWK4TPS31ZEBPNNKAG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T13:05:35.159394+00:00"
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.zigbee2mqtt_bridge_version","state":"unavailable","attributes":{"icon":"mdi:zigbee","friendly_name":"Zigbee2MQTT Bridge Version"},"last_changed":"2026-05-18T14:58:34.561896+00:00","last_reported":"2026-05-18T14:58:34.561896+00:00","last_updated":"2026-05-18T14:58:34.561896+00:00","context":{"id":"01KRXSH3Y173JTFBDZ69HV3C32","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.door_battery","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"door Battery"},"last_changed":"2026-05-18T14:58:34.574671+00:00","last_reported":"2026-05-18T14:58:34.574671+00:00","last_updated":"2026-05-18T14:58:34.574671+00:00","context":{"id":"01KRXSH3YEVY9S32X15S7M7QJP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.door_voltage","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"mV","device_class":"voltage","friendly_name":"door Voltage"},"last_changed":"2026-05-18T14:58:34.580534+00:00","last_reported":"2026-05-18T14:58:34.580534+00:00","last_updated":"2026-05-18T14:58:34.580534+00:00","context":{"id":"01KRXSH3YMYJS9BZEH2H5XQ9W2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "mV"
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sensor_occupancy_illumination","state":"unavailable","attributes":{"friendly_name":"sensor occupancy Illumination"},"last_changed":"2026-05-18T14:58:34.585378+00:00","last_reported":"2026-05-18T14:58:34.585378+00:00","last_updated":"2026-05-18T14:58:34.585378+00:00","context":{"id":"01KRXSH3YSJ3JA6KPWFS1XBA7T","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.yellow_switch_moving","state":"unavailable","attributes":{"friendly_name":"yellow switch Moving"},"last_changed":"2026-05-18T14:58:34.591299+00:00","last_reported":"2026-05-18T14:58:34.591299+00:00","last_updated":"2026-05-18T14:58:34.591299+00:00","context":{"id":"01KRXSH3YZNCDJSHFCK7R9DRBB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.zigbee2mqtt_bridge_permit_join","state":"unavailable","attributes":{"icon":"mdi:human-greeting-proximity","friendly_name":"Zigbee2MQTT Bridge Permit join"},"last_changed":"2026-05-18T14:58:34.601408+00:00","last_reported":"2026-05-18T14:58:34.601408+00:00","last_updated":"2026-05-18T14:58:34.601408+00:00","context":{"id":"01KRXSH3Z9QSC5YHT0MF3J61G2","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.yellow_switch_motor_reversal","state":"unavailable","attributes":{"icon":"mdi:arrow-left-right","friendly_name":"yellow switch Motor reversal"},"last_changed":"2026-05-18T14:58:34.604104+00:00","last_reported":"2026-05-18T14:58:34.604104+00:00","last_updated":"2026-05-18T14:58:34.604104+00:00","context":{"id":"01KRXSH3ZCN7W2A43JSM107960","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.yellow_switch_calibration_to_open","state":"unavailable","attributes":{"friendly_name":"yellow switch Calibration to open"},"last_changed":"2026-05-18T14:58:34.609012+00:00","last_reported":"2026-05-18T14:58:34.609012+00:00","last_updated":"2026-05-18T14:58:34.609012+00:00","context":{"id":"01KRXSH3ZH4PQWKAADVS2DKJ51","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.yellow_switch_calibration_to_close","state":"unavailable","attributes":{"friendly_name":"yellow switch Calibration to close"},"last_changed":"2026-05-18T14:58:34.612462+00:00","last_reported":"2026-05-18T14:58:34.612462+00:00","last_updated":"2026-05-18T14:58:34.612462+00:00","context":{"id":"01KRXSH3ZMM1YMNYHY0XREX1K7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"update.sensor_occupancy","state":"unavailable","attributes":{"device_class":"firmware","entity_picture":"https://github.com/Koenkk/zigbee2mqtt/raw/master/images/logo.png","friendly_name":"sensor occupancy","supported_features":5},"last_changed":"2026-05-18T14:58:34.623771+00:00","last_reported":"2026-05-18T14:58:34.623771+00:00","last_updated":"2026-05-18T14:58:34.623771+00:00","context":{"id":"01KRXSH3ZZJDB33WJHCMVMG2FS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.quite","state":"unknown","attributes":{"friendly_name":"Quite"},"last_changed":"2026-05-18T14:58:34.763302+00:00","last_reported":"2026-05-18T14:58:34.763302+00:00","last_updated":"2026-05-18T14:58:34.763302+00:00","context":{"id":"01KRXSH44B9YS81C5JHVR0R7XB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.swing","state":"unknown","attributes":{"friendly_name":"Swing"},"last_changed":"2026-05-18T14:58:34.763867+00:00","last_reported":"2026-05-18T14:58:34.763867+00:00","last_updated":"2026-05-18T14:58:34.763867+00:00","context":{"id":"01KRXSH44BQVW143G2AAGTCM9P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.ac_on","state":"2026-05-17T17:44:07.149682+00:00","attributes":{"friendly_name":"Ac On"},"last_changed":"2026-05-18T14:58:34.764295+00:00","last_reported":"2026-05-18T14:58:34.764295+00:00","last_updated":"2026-05-18T14:58:34.764295+00:00","context":{"id":"01KRXSH44CZV9HRZYCFVNC78QE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.ac_off","state":"2026-05-17T18:06:42.285676+00:00","attributes":{"friendly_name":"Ac Off"},"last_changed":"2026-05-18T14:58:34.764678+00:00","last_reported":"2026-05-18T14:58:34.764678+00:00","last_updated":"2026-05-18T14:58:34.764678+00:00","context":{"id":"01KRXSH44C4XYXM06HN0XYD8VH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.32","state":"unknown","attributes":{"friendly_name":"32"},"last_changed":"2026-05-18T14:58:34.765056+00:00","last_reported":"2026-05-18T14:58:34.765056+00:00","last_updated":"2026-05-18T14:58:34.765056+00:00","context":{"id":"01KRXSH44DVX2BWYVB6JMR7FVT","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.31","state":"unknown","attributes":{"friendly_name":"31"},"last_changed":"2026-05-18T14:58:34.765430+00:00","last_reported":"2026-05-18T14:58:34.765430+00:00","last_updated":"2026-05-18T14:58:34.765430+00:00","context":{"id":"01KRXSH44DXMK71S44Y3GC94QZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.30","state":"unknown","attributes":{"friendly_name":"30"},"last_changed":"2026-05-18T14:58:34.765799+00:00","last_reported":"2026-05-18T14:58:34.765799+00:00","last_updated":"2026-05-18T14:58:34.765799+00:00","context":{"id":"01KRXSH44DB5A34JFZ2XD9FGPP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.29","state":"unknown","attributes":{"friendly_name":"29"},"last_changed":"2026-05-18T14:58:34.766176+00:00","last_reported":"2026-05-18T14:58:34.766176+00:00","last_updated":"2026-05-18T14:58:34.766176+00:00","context":{"id":"01KRXSH44ECGYQZXV2Z1FGT6TZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.28","state":"unknown","attributes":{"friendly_name":"28"},"last_changed":"2026-05-18T14:58:34.766541+00:00","last_reported":"2026-05-18T14:58:34.766541+00:00","last_updated":"2026-05-18T14:58:34.766541+00:00","context":{"id":"01KRXSH44ER11ZWJC2QDKASKXN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.27","state":"unknown","attributes":{"friendly_name":"27"},"last_changed":"2026-05-18T14:58:34.766907+00:00","last_reported":"2026-05-18T14:58:34.766907+00:00","last_updated":"2026-05-18T14:58:34.766907+00:00","context":{"id":"01KRXSH44EHSR10WVSJY2YTGT4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.26","state":"unknown","attributes":{"friendly_name":"26"},"last_changed":"2026-05-18T14:58:34.767261+00:00","last_reported":"2026-05-18T14:58:34.767261+00:00","last_updated":"2026-05-18T14:58:34.767261+00:00","context":{"id":"01KRXSH44FRR84SAX34VF26HKM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.25","state":"unknown","attributes":{"friendly_name":"25"},"last_changed":"2026-05-18T14:58:34.767640+00:00","last_reported":"2026-05-18T14:58:34.767640+00:00","last_updated":"2026-05-18T14:58:34.767640+00:00","context":{"id":"01KRXSH44F4D4YJNNCMYMKKAXG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.24","state":"unknown","attributes":{"friendly_name":"24"},"last_changed":"2026-05-18T14:58:34.767995+00:00","last_reported":"2026-05-18T14:58:34.767995+00:00","last_updated":"2026-05-18T14:58:34.767995+00:00","context":{"id":"01KRXSH44FHWH1PXK7MR05HDHK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.23","state":"unknown","attributes":{"friendly_name":"23"},"last_changed":"2026-05-18T14:58:34.768340+00:00","last_reported":"2026-05-18T14:58:34.768340+00:00","last_updated":"2026-05-18T14:58:34.768340+00:00","context":{"id":"01KRXSH44GAKEBHJT2R6XJ83V6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.22","state":"unknown","attributes":{"friendly_name":"22"},"last_changed":"2026-05-18T14:58:34.768696+00:00","last_reported":"2026-05-18T14:58:34.768696+00:00","last_updated":"2026-05-18T14:58:34.768696+00:00","context":{"id":"01KRXSH44GCH88EXWXBMQQE48Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.20","state":"unknown","attributes":{"friendly_name":"20"},"last_changed":"2026-05-18T14:58:34.769073+00:00","last_reported":"2026-05-18T14:58:34.769073+00:00","last_updated":"2026-05-18T14:58:34.769073+00:00","context":{"id":"01KRXSH44HJBEW9WSP2F1Z8VPR","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.21","state":"unknown","attributes":{"friendly_name":"21"},"last_changed":"2026-05-18T14:58:34.769416+00:00","last_reported":"2026-05-18T14:58:34.769416+00:00","last_updated":"2026-05-18T14:58:34.769416+00:00","context":{"id":"01KRXSH44HX83Q9H0FKQGWHB4A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.19","state":"2026-05-17T18:06:39.491769+00:00","attributes":{"friendly_name":"19"},"last_changed":"2026-05-18T14:58:34.769769+00:00","last_reported":"2026-05-18T14:58:34.769769+00:00","last_updated":"2026-05-18T14:58:34.769769+00:00","context":{"id":"01KRXSH44HHSCSZVKDAMQSVHMY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.18","state":"2026-05-17T18:04:48.609630+00:00","attributes":{"friendly_name":"18"},"last_changed":"2026-05-18T14:58:34.770113+00:00","last_reported":"2026-05-18T14:58:34.770113+00:00","last_updated":"2026-05-18T14:58:34.770113+00:00","context":{"id":"01KRXSH44JZWE5S1VCQZ0Q6DYM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.17","state":"2026-05-17T18:04:47.526763+00:00","attributes":{"friendly_name":"17"},"last_changed":"2026-05-18T14:58:34.770452+00:00","last_reported":"2026-05-18T14:58:34.770452+00:00","last_updated":"2026-05-18T14:58:34.770452+00:00","context":{"id":"01KRXSH44J0P068ASS7VSXC7YJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"scene.16","state":"2026-05-17T18:04:44.894791+00:00","attributes":{"friendly_name":"16"},"last_changed":"2026-05-18T14:58:34.770809+00:00","last_reported":"2026-05-18T14:58:34.770809+00:00","last_updated":"2026-05-18T14:58:34.770809+00:00","context":{"id":"01KRXSH44JJA47QPMHDJ8743SD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:34.774302+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.cap_cover_position_to_max_position","state":"on","attributes":{"last_triggered":"2026-05-18T14:56:51.308018+00:00","mode":"single","current":0,"friendly_name":"Cap cover position to max_position"},"last_changed":"2026-05-18T14:53:41.401798+00:00","last_reported":"2026-05-18T14:56:51.310264+00:00","last_updated":"2026-05-18T14:56:51.310264+00:00","context":{"id":"01KRXSDZ3BFF7WV8YDJKDAN5GB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2026-05-18T14:58:01.388409+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.max_position","state":"65","attributes":{"friendly_name":"max_position"},"last_changed":"2026-05-18T14:53:41.417653+00:00","last_reported":"2026-05-18T14:53:41.417653+00:00","last_updated":"2026-05-18T14:53:41.417653+00:00","context":{"id":"01KRXS85N9D81GFZN2E70VJ0E0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "65",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2026-05-18T14:58:01.388409+00:00"
     },
     {
       "state": {"entity_id":"script.ac_turn_on","state":"off","attributes":{"last_triggered":"2026-05-17T18:06:39.490914+00:00","mode":"single","current":0,"friendly_name":"AC Turn On"},"last_changed":"2026-05-17T18:06:39.741070+00:00","last_reported":"2026-05-17T18:06:39.741070+00:00","last_updated":"2026-05-17T18:06:39.741070+00:00","context":{"id":"01KRVHWSC2VJ3ANT1G80VEVZCM","parent_id":null,"user_id":"55a32a85eeed425ca4ed5e758674b417"}},

@@ -12,8 +12,125 @@
               "type": "grid",
               "cards": [
                 {
+                  "type": "button",
+                  "name": "GO BACK HOME",
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-user/0"
+                  },
+                  "card_mod": {
+                    "style": "ha-card {\n  height: 90px;\n  background: linear-gradient(135deg, #1e1e1e, #151515);\n  border: 1px solid #2a2a2a;\n  border-radius: 18px;\n  box-shadow: none;\n  font-size: 18px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n}\nha-icon { color: #4ade80; width: 28px; height: 28px; }\n"
+                  }
+                },
+                {
                   "type": "heading",
-                  "heading": "New section"
+                  "heading": "yellow switch"
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "name": "Open",
+                      "icon": "mdi:window-shutter-open",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.set_cover_position",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        },
+                        "data": {
+                          "position": 65
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "Pause",
+                      "icon": "mdi:pause",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.stop_cover",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "Close",
+                      "icon": "mdi:window-shutter",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.close_cover",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "name": "25%",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.set_cover_position",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        },
+                        "data": {
+                          "position": 16
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "50%",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.set_cover_position",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        },
+                        "data": {
+                          "position": 33
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "75%",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.set_cover_position",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        },
+                        "data": {
+                          "position": 49
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "100%",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "cover.set_cover_position",
+                        "target": {
+                          "entity_id": "cover.yellow_switch"
+                        },
+                        "data": {
+                          "position": 65
+                        }
+                      }
+                    }
+                  ]
                 }
               ]
             }

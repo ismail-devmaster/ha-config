@@ -47,9 +47,9 @@ homeassistant:
 devices:
   '0xa4c138ad2b20ea12':
     friendly_name: orange switch
-  '0xa4c1380caa0578c0':
-    friendly_name: '0xa4c1380caa0578c0'
   '0xa4c138997d10233c':
     friendly_name: door
   '0xf4b3b1fffe495048':
     friendly_name: sensor occupancy
+  '0xa4c1380caa0578c0':
+    friendly_name: yellow switch

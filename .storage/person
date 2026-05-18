@@ -8,7 +8,9 @@
         "id": "pi",
         "name": "pi",
         "user_id": "55a32a85eeed425ca4ed5e758674b417",
-        "device_trackers": []
+        "device_trackers": [
+          "device_tracker.px30_evb"
+        ]
       }
     ]
   }
