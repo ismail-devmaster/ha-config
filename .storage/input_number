@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_number",
+  "data": {
+    "items": [
+      {
+        "id": "ac_current_temp",
+        "min": 16.0,
+        "max": 32.0,
+        "name": "AC Current Temp",
+        "icon": "mdi:pistol",
+        "unit_of_measurement": "°C",
+        "step": 1.0,
+        "mode": "slider"
+      }
+    ]
+  }
+}

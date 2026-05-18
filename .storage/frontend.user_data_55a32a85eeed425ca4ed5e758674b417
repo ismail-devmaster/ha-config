@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "frontend.user_data_55a32a85eeed425ca4ed5e758674b417",
+  "data": {
+    "core": {
+      "showAdvanced": true,
+      "showEntityIdPicker": false
+    }
+  }
+}

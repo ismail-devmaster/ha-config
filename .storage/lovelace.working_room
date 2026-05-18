@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.working_room",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "AC Remote",
+          "type": "sections",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "AC Control"
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "name": "AC On",
+                      "icon": "mdi:power",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "script.ac_turn_on"
+                      },
+                      "show_name": true,
+                      "show_icon": true,
+                      "color": "green"
+                    },
+                    {
+                      "type": "button",
+                      "name": "AC Off",
+                      "icon": "mdi:power-off",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "scene.turn_on",
+                        "target": {
+                          "entity_id": "scene.ac_off"
+                        }
+                      },
+                      "show_name": true,
+                      "show_icon": true,
+                      "color": "red"
+                    }
+                  ]
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "name": "Swing",
+                      "icon": "mdi:swap-vertical",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "script.ac_swing"
+                      },
+                      "show_name": true,
+                      "show_icon": true
+                    },
+                    {
+                      "type": "button",
+                      "name": "Quiet",
+                      "icon": "mdi:volume-off",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "script.ac_quite"
+                      },
+                      "show_name": true,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "name": "Down",
+                      "icon": "mdi:chevron-down",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "script.ac_temp_down"
+                      },
+                      "show_name": true,
+                      "show_icon": true,
+                      "color": "blue"
+                    },
+                    {
+                      "type": "entity",
+                      "entity": "input_number.ac_current_temp",
+                      "name": "Temp",
+                      "icon": "mdi:thermometer"
+                    },
+                    {
+                      "type": "button",
+                      "name": "Up",
+                      "icon": "mdi:chevron-up",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "script.ac_temp_up"
+                      },
+                      "show_name": true,
+                      "show_icon": true,
+                      "color": "red"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

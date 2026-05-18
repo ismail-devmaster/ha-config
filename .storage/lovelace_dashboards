@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "map",
+        "icon": "mdi:map",
+        "title": "Map",
+        "url_path": "map",
+        "mode": "storage",
+        "show_in_sidebar": true,
+        "require_admin": false
+      },
+      {
+        "id": "dashboard_domolux",
+        "show_in_sidebar": true,
+        "icon": "mdi:home",
+        "title": "Domolux",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-domolux"
+      },
+      {
+        "id": "working_room",
+        "show_in_sidebar": true,
+        "icon": "mdi:laptop",
+        "title": "working room",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "working-room"
+      }
+    ]
+  }
+}

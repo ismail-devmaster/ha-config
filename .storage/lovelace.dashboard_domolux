@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_domolux",
+  "data": {
+    "config": {
+      "title": "Domolux",
+      "views": [
+        {
+          "title": "Accueil",
+          "type": "masonry",
+          "cards": [
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Bonjour, {{ user }}",
+              "subtitle": "Voici ce qui se passe chez vous."
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "{{ states('sensor.temperature') }}°",
+                  "secondary": "Ensoleillé",
+                  "icon": "mdi:weather-sunny",
+                  "icon_color": "amber"
+                },
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "{{ now().strftime('%H:%M') }}\n",
+                  "secondary": "{{ now().strftime('%A %d %B') }}\n",
+                  "icon": "mdi:clock-outline",
+                  "icon_color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 3,
+              "square": false,
+              "cards": [
+                {
+                  "type": "custom:mushroom-light-card",
+                  "entity": "light.salon",
+                  "name": "Lumière salon",
+                  "show_brightness_control": true,
+                  "use_light_color": true,
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.thermostat",
+                  "name": "Thermostat",
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:mushroom-entity-card",
+                  "entity": "camera.entree",
+                  "name": "Caméra entrée",
+                  "icon": "mdi:cctv",
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:mushroom-light-card",
+                  "entity": "light.cuisine",
+                  "name": "Lumière cuisine",
+                  "use_light_color": true,
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:mushroom-entity-card",
+                  "entity": "switch.machine_cafe",
+                  "name": "Prise machine à café",
+                  "icon": "mdi:coffee",
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:mushroom-entity-card",
+                  "entity": "lock.porte",
+                  "name": "Serrure porte",
+                  "icon": "mdi:door-lock",
+                  "fill_container": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
