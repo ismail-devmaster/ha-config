@@ -30,6 +30,33 @@
         "require_admin": false,
         "mode": "storage",
         "url_path": "working-room"
+      },
+      {
+        "id": "fethi_room",
+        "show_in_sidebar": true,
+        "icon": "mdi:account",
+        "title": "fethi room",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "fethi-room"
+      },
+      {
+        "id": "metting_room",
+        "show_in_sidebar": true,
+        "icon": "mdi:account-group",
+        "title": "metting room",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "metting-room"
+      },
+      {
+        "id": "dashboard_kitchen",
+        "show_in_sidebar": true,
+        "icon": "mdi:fridge",
+        "title": "kitchen",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-kitchen"
       }
     ]
   }

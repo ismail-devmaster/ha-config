@@ -6,42 +6,42 @@
     {
       "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2026.05.0","in_progress":false,"latest_version":"2026.05.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2026.05.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"/api/brands/integration/hassio/icon.png?placeholder=no","friendly_name":"Home Assistant Supervisor Update","supported_features":5},"last_changed":"2026-05-18T11:05:31.321401+00:00","last_reported":"2026-05-18T11:05:31.321401+00:00","last_updated":"2026-05-18T11:05:31.321401+00:00","context":{"id":"01KRXC6CDSNCNHTHTQ2M1PN40R","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2026.5.2","in_progress":false,"latest_version":"2026.5.2","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Core Update","supported_features":15},"last_changed":"2026-05-18T11:05:31.321781+00:00","last_reported":"2026-05-18T11:05:31.321781+00:00","last_updated":"2026-05-18T11:05:31.321781+00:00","context":{"id":"01KRXC6CDSMSH1ZFGQNWTSFVXZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"17.3","in_progress":false,"latest_version":"17.3","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/17.3","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"/api/brands/integration/homeassistant/icon.png?placeholder=no","friendly_name":"Home Assistant Operating System Update","supported_features":11},"last_changed":"2026-05-18T11:05:31.322036+00:00","last_reported":"2026-05-18T11:05:31.322036+00:00","last_updated":"2026-05-18T11:05:31.322036+00:00","context":{"id":"01KRXC6CDTSXZYZ42613VZ0TNK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.terminal_ssh_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"10.2.0","in_progress":false,"latest_version":"10.2.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Terminal & SSH","update_percentage":null,"entity_picture":"/api/hassio/addons/core_ssh/icon","friendly_name":"Terminal & SSH Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322276+00:00","last_reported":"2026-05-18T11:05:31.322276+00:00","last_updated":"2026-05-18T11:05:31.322276+00:00","context":{"id":"01KRXC6CDTCB5CR2J86N1PPCS3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"6.0.0","in_progress":false,"latest_version":"6.0.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"File editor","update_percentage":null,"entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322458+00:00","last_reported":"2026-05-18T11:05:31.322458+00:00","last_updated":"2026-05-18T11:05:31.322458+00:00","context":{"id":"01KRXC6CDTBX0RD76RJR3PVY26","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"7.1.0","in_progress":false,"latest_version":"7.1.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"Mosquitto broker","update_percentage":null,"entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322615+00:00","last_reported":"2026-05-18T11:05:31.322615+00:00","last_updated":"2026-05-18T11:05:31.322615+00:00","context":{"id":"01KRXC6CDTNVR12JT04Z9BCZ9V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.zigbee2mqtt_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2.10.1-1","in_progress":false,"latest_version":"2.10.1-1","release_summary":null,"release_url":null,"skipped_version":null,"title":"Zigbee2MQTT","update_percentage":null,"entity_picture":"/api/hassio/addons/45df7312_zigbee2mqtt/icon","friendly_name":"Zigbee2MQTT Update","supported_features":29},"last_changed":"2026-05-18T11:05:31.322765+00:00","last_reported":"2026-05-18T11:05:31.322765+00:00","last_updated":"2026-05-18T11:05:31.322765+00:00","context":{"id":"01KRXC6CDTFQ5AZSSA5CCH7SXE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2026-05-18T11:05:31.847494+00:00","last_reported":"2026-05-18T11:05:31.847494+00:00","last_updated":"2026-05-18T11:05:31.847494+00:00","context":{"id":"01KRXC6CY7VB714MEVKRJ78RAH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2026-05-18T11:05:32.018099+00:00","last_reported":"2026-05-18T11:05:32.018099+00:00","last_updated":"2026-05-18T11:05:32.018099+00:00","context":{"id":"01KRXC6D3JB8TB5KDWVFQGDCWZ","parent_id":null,"user_id":null}},
@@ -49,142 +49,142 @@
         "last_event_type": null,
         "last_event_attributes": null
       },
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"person.pi","state":"unknown","attributes":{"editable":true,"id":"pi","device_trackers":[],"in_zones":[],"user_id":"55a32a85eeed425ca4ed5e758674b417","friendly_name":"pi"},"last_changed":"2026-05-18T11:05:32.272245+00:00","last_reported":"2026-05-18T11:05:35.153870+00:00","last_updated":"2026-05-18T11:05:35.153870+00:00","context":{"id":"01KRXC6G5HYPDRVBGSAFTHA9NM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"input_number.ac_current_temp","state":"19.0","attributes":{"initial":null,"editable":true,"min":16.0,"max":32.0,"step":1.0,"mode":"slider","unit_of_measurement":"°C","icon":"mdi:pistol","friendly_name":"AC Current Temp"},"last_changed":"2026-05-18T11:05:32.272589+00:00","last_reported":"2026-05-18T11:05:32.272589+00:00","last_updated":"2026-05-18T11:05:32.272589+00:00","context":{"id":"01KRXC6DBGHP1WKE7KR3MYMV5B","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.blueprint_studio_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v2.4.8","in_progress":false,"latest_version":"v2.4.8","release_summary":null,"release_url":"https://github.com/soulripper13/blueprint-studio/releases/v2.4.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/blueprint_studio/icon.png","friendly_name":"Blueprint Studio Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803116+00:00","last_reported":"2026-05-18T11:05:33.803116+00:00","last_updated":"2026-05-18T11:05:33.803116+00:00","context":{"id":"01KRXC6EVB90BXVRWRED41KMCT","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v5.1.1","in_progress":false,"latest_version":"v5.1.1","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v5.1.1","skipped_version":null,"title":null,"update_percentage":null,"friendly_name":"Mushroom Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803414+00:00","last_reported":"2026-05-18T11:05:33.803414+00:00","last_updated":"2026-05-18T11:05:33.803414+00:00","context":{"id":"01KRXC6EVBTVK3N38B61AKP026","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS Update","supported_features":23},"last_changed":"2026-05-18T11:05:33.803630+00:00","last_reported":"2026-05-18T11:05:33.803630+00:00","last_updated":"2026-05-18T11:05:33.803630+00:00","context":{"id":"01KRXC6EVB4D1F5AJ7E2P81T9V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2026-05-18T11:05:33.825943+00:00","last_reported":"2026-05-18T11:05:33.825943+00:00","last_updated":"2026-05-18T11:05:33.825943+00:00","context":{"id":"01KRXC6EW15TKJCR0MJDM7YDH3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.quite","state":"unknown","attributes":{"friendly_name":"Quite"},"last_changed":"2026-05-18T11:05:35.137551+00:00","last_reported":"2026-05-18T11:05:35.137551+00:00","last_updated":"2026-05-18T11:05:35.137551+00:00","context":{"id":"01KRXC6G51KWNMQB8KEKKE6MK8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.swing","state":"unknown","attributes":{"friendly_name":"Swing"},"last_changed":"2026-05-18T11:05:35.138118+00:00","last_reported":"2026-05-18T11:05:35.138118+00:00","last_updated":"2026-05-18T11:05:35.138118+00:00","context":{"id":"01KRXC6G52WV9903RPWW9MD1SV","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.ac_on","state":"2026-05-17T17:44:07.149682+00:00","attributes":{"friendly_name":"Ac On"},"last_changed":"2026-05-18T11:05:35.138584+00:00","last_reported":"2026-05-18T11:05:35.138584+00:00","last_updated":"2026-05-18T11:05:35.138584+00:00","context":{"id":"01KRXC6G52K8PSA10B1VB4BDM2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.ac_off","state":"2026-05-17T18:06:42.285676+00:00","attributes":{"friendly_name":"Ac Off"},"last_changed":"2026-05-18T11:05:35.138988+00:00","last_reported":"2026-05-18T11:05:35.138988+00:00","last_updated":"2026-05-18T11:05:35.138988+00:00","context":{"id":"01KRXC6G52J2BCB8V4WCV1TA7R","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.32","state":"unknown","attributes":{"friendly_name":"32"},"last_changed":"2026-05-18T11:05:35.139397+00:00","last_reported":"2026-05-18T11:05:35.139397+00:00","last_updated":"2026-05-18T11:05:35.139397+00:00","context":{"id":"01KRXC6G53HFZYHYESZ9P9S2QN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.31","state":"unknown","attributes":{"friendly_name":"31"},"last_changed":"2026-05-18T11:05:35.139848+00:00","last_reported":"2026-05-18T11:05:35.139848+00:00","last_updated":"2026-05-18T11:05:35.139848+00:00","context":{"id":"01KRXC6G530B9YVV435ZJD1GRB","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.30","state":"unknown","attributes":{"friendly_name":"30"},"last_changed":"2026-05-18T11:05:35.140242+00:00","last_reported":"2026-05-18T11:05:35.140242+00:00","last_updated":"2026-05-18T11:05:35.140242+00:00","context":{"id":"01KRXC6G54AZAN159TATV023Z3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.29","state":"unknown","attributes":{"friendly_name":"29"},"last_changed":"2026-05-18T11:05:35.140620+00:00","last_reported":"2026-05-18T11:05:35.140620+00:00","last_updated":"2026-05-18T11:05:35.140620+00:00","context":{"id":"01KRXC6G54Q1YWT7NV4KFMNFCE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.28","state":"unknown","attributes":{"friendly_name":"28"},"last_changed":"2026-05-18T11:05:35.140997+00:00","last_reported":"2026-05-18T11:05:35.140997+00:00","last_updated":"2026-05-18T11:05:35.140997+00:00","context":{"id":"01KRXC6G54912ZAEJ2JD1ZMBXZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.27","state":"unknown","attributes":{"friendly_name":"27"},"last_changed":"2026-05-18T11:05:35.141360+00:00","last_reported":"2026-05-18T11:05:35.141360+00:00","last_updated":"2026-05-18T11:05:35.141360+00:00","context":{"id":"01KRXC6G55BRRSP4DEN4Q43FCN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.26","state":"unknown","attributes":{"friendly_name":"26"},"last_changed":"2026-05-18T11:05:35.141733+00:00","last_reported":"2026-05-18T11:05:35.141733+00:00","last_updated":"2026-05-18T11:05:35.141733+00:00","context":{"id":"01KRXC6G5569T9HSKBW8YAJVF1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.25","state":"unknown","attributes":{"friendly_name":"25"},"last_changed":"2026-05-18T11:05:35.142101+00:00","last_reported":"2026-05-18T11:05:35.142101+00:00","last_updated":"2026-05-18T11:05:35.142101+00:00","context":{"id":"01KRXC6G567QBWGBH1KMGHC71G","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.24","state":"unknown","attributes":{"friendly_name":"24"},"last_changed":"2026-05-18T11:05:35.142468+00:00","last_reported":"2026-05-18T11:05:35.142468+00:00","last_updated":"2026-05-18T11:05:35.142468+00:00","context":{"id":"01KRXC6G56VH61MWVVX27RGR77","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.23","state":"unknown","attributes":{"friendly_name":"23"},"last_changed":"2026-05-18T11:05:35.142824+00:00","last_reported":"2026-05-18T11:05:35.142824+00:00","last_updated":"2026-05-18T11:05:35.142824+00:00","context":{"id":"01KRXC6G56YTN23ZDZ0ZB2R96D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.22","state":"unknown","attributes":{"friendly_name":"22"},"last_changed":"2026-05-18T11:05:35.143168+00:00","last_reported":"2026-05-18T11:05:35.143168+00:00","last_updated":"2026-05-18T11:05:35.143168+00:00","context":{"id":"01KRXC6G57MYBQVMVQHAXSM4T5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.20","state":"unknown","attributes":{"friendly_name":"20"},"last_changed":"2026-05-18T11:05:35.143535+00:00","last_reported":"2026-05-18T11:05:35.143535+00:00","last_updated":"2026-05-18T11:05:35.143535+00:00","context":{"id":"01KRXC6G57Q4BKDHP2DR79ETSS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.21","state":"unknown","attributes":{"friendly_name":"21"},"last_changed":"2026-05-18T11:05:35.143891+00:00","last_reported":"2026-05-18T11:05:35.143891+00:00","last_updated":"2026-05-18T11:05:35.143891+00:00","context":{"id":"01KRXC6G57W3ZJ5RRJ1PB652VK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.19","state":"2026-05-17T18:06:39.491769+00:00","attributes":{"friendly_name":"19"},"last_changed":"2026-05-18T11:05:35.144259+00:00","last_reported":"2026-05-18T11:05:35.144259+00:00","last_updated":"2026-05-18T11:05:35.144259+00:00","context":{"id":"01KRXC6G58J4BR8794F59NWN40","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.18","state":"2026-05-17T18:04:48.609630+00:00","attributes":{"friendly_name":"18"},"last_changed":"2026-05-18T11:05:35.144609+00:00","last_reported":"2026-05-18T11:05:35.144609+00:00","last_updated":"2026-05-18T11:05:35.144609+00:00","context":{"id":"01KRXC6G58J3ZSPF66YE10VS3Z","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.17","state":"2026-05-17T18:04:47.526763+00:00","attributes":{"friendly_name":"17"},"last_changed":"2026-05-18T11:05:35.144947+00:00","last_reported":"2026-05-18T11:05:35.144947+00:00","last_updated":"2026-05-18T11:05:35.144947+00:00","context":{"id":"01KRXC6G58309T2SRNZQ26EK81","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"scene.16","state":"2026-05-17T18:04:44.894791+00:00","attributes":{"friendly_name":"16"},"last_changed":"2026-05-18T11:05:35.145292+00:00","last_reported":"2026-05-18T11:05:35.145292+00:00","last_updated":"2026-05-18T11:05:35.145292+00:00","context":{"id":"01KRXC6G59B7ATQE4R9NQQP0E7","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2026-05-18T12:50:35.158526+00:00"
+      "last_seen": "2026-05-18T13:05:35.159394+00:00"
     },
     {
       "state": {"entity_id":"script.ac_turn_on","state":"off","attributes":{"last_triggered":"2026-05-17T18:06:39.490914+00:00","mode":"single","current":0,"friendly_name":"AC Turn On"},"last_changed":"2026-05-17T18:06:39.741070+00:00","last_reported":"2026-05-17T18:06:39.741070+00:00","last_updated":"2026-05-17T18:06:39.741070+00:00","context":{"id":"01KRVHWSC2VJ3ANT1G80VEVZCM","parent_id":null,"user_id":"55a32a85eeed425ca4ed5e758674b417"}},
