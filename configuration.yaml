@@ -11,3 +11,12 @@ frontend:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+# configuration.yaml
+lovelace:
+  mode: yaml
+  dashboards:
+    showcase-dashboard:
+      mode: yaml
+      filename: dashboards/showcase.yaml
+      title: Showcase
+      icon: mdi:home
