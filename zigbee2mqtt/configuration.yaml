@@ -1,0 +1,55 @@
+version: 5
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://core-mosquitto:1883
+  user: addons
+  password: eiJaecu1ediephai8xae3pax5piCieceipu2oqu4Jahd2ooroceih0eesooChaiz
+serial:
+  port: /dev/ttyUSB0
+  adapter: zstack
+  baudrate: 115200
+  rtscts: false
+advanced:
+  log_level: info
+  channel: 11
+  network_key:
+    - 120
+    - 236
+    - 117
+    - 149
+    - 164
+    - 74
+    - 96
+    - 157
+    - 250
+    - 226
+    - 186
+    - 52
+    - 160
+    - 121
+    - 227
+    - 58
+  pan_id: 10363
+  ext_pan_id:
+    - 69
+    - 156
+    - 235
+    - 167
+    - 168
+    - 89
+    - 186
+    - 185
+frontend:
+  enabled: true
+  port: 8099
+homeassistant:
+  enabled: true
+devices:
+  '0xa4c138ad2b20ea12':
+    friendly_name: orange switch
+  '0xa4c1380caa0578c0':
+    friendly_name: '0xa4c1380caa0578c0'
+  '0xa4c138997d10233c':
+    friendly_name: door
+  '0xf4b3b1fffe495048':
+    friendly_name: sensor occupancy

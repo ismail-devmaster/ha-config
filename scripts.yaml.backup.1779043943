@@ -1,0 +1,69 @@
+ac_turn_on:
+alias: AC Turn On
+sequence:
+  - service: scene.turn_on
+    target:
+      entity_id: >
+        scene.{{ states('input_number.ac_current_temp') | int }}
+
+    action: scene.turn_on description: ''
+ac_swing:
+  alias: AC Swing
+  sequence:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.swing
+  - delay:
+      milliseconds: 500
+  - service: scene.turn_on
+    target:
+      entity_id: 'scene.{{ states(''input_number.ac_current_temp'') | int }}
+
+        '
+ac_quite:
+  alias: AC Quite
+  sequence:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.quite
+  - delay:
+      milliseconds: 500
+  - service: scene.turn_on
+    target:
+      entity_id: 'scene.{{ states(''input_number.ac_current_temp'') | int }}
+
+        '
+ac_temp_up:
+  alias: AC Temp Up
+  sequence:
+  - service: input_number.set_value
+    target:
+      entity_id: input_number.ac_current_temp
+    data:
+      value: '{{ [states(''input_number.ac_current_temp'') | float(16) + 1, 32] |
+        min | int }}
+
+        '
+  - delay:
+      milliseconds: 200
+  - service: scene.turn_on
+    target:
+      entity_id: 'scene.{{ states(''input_number.ac_current_temp'') | int }}
+
+        '
+ac_temp_down:
+  alias: AC Temp Down
+  sequence:
+  - service: input_number.set_value
+    target:
+      entity_id: input_number.ac_current_temp
+    data:
+      value: '{{ [states(''input_number.ac_current_temp'') | float(16) - 1, 16] |
+        max | int }}
+
+        '
+  - delay:
+      milliseconds: 200
+  - service: scene.turn_on
+    target:
+      entity_id: scene.{{ states('input_number.ac_current_temp') | int }}

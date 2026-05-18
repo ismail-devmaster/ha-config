@@ -1,0 +1,9 @@
+# Home Assistant storage and runtime data
+.storage/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Private credentials
+secrets.yaml

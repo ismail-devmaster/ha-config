@@ -1,0 +1,31 @@
+{
+    "0xa4c138ad2b20ea12": {
+        "linkquality": 153
+    },
+    "0xa4c1380caa0578c0": {
+        "position": 29,
+        "state": "OPEN",
+        "moving": "STOP",
+        "linkquality": 10
+    },
+    "0xa4c138997d10233c": {
+        "voltage": 3000,
+        "battery": 100,
+        "linkquality": 94,
+        "contact": false,
+        "tamper": true,
+        "battery_low": false
+    },
+    "0xf4b3b1fffe495048": {
+        "occupancy": false,
+        "update": {
+            "state": "idle",
+            "installed_version": 4102,
+            "latest_version": 4101,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-06p_v1.0.5.ota",
+            "latest_release_notes": null
+        },
+        "linkquality": 83,
+        "illumination": "bright"
+    }
+}
